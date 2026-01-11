@@ -1,8 +1,7 @@
-version: "3.9"
 services:
   student:
     build: .
     image: student_tasks_cpp
     stdin_open: true
     tty: true
-    command: ["/app/student_tasks"]
+    entrypoint: ["/app/student_tasks"]
