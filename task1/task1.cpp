@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-#include "tasks.hpp"
+#include "task1.hpp"
 
 namespace {
 
@@ -108,7 +108,7 @@ bool evaluateExpression(const std::string& expr, long long& result, std::string&
 
 }  // namespace
 
-void runExpressionEvaluator() {
+void runTask1() {
     std::cout << "Введите арифметическое выражение (+, -, *, скобки, целые числа):\n> ";
     std::string expr;
     std::getline(std::cin, expr);

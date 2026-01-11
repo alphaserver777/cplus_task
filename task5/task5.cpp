@@ -3,7 +3,7 @@
 #include <limits>
 #include <memory>
 
-#include "tasks.hpp"
+#include "task5.hpp"
 
 namespace {
 
@@ -40,7 +40,7 @@ bool isAvl(const std::unique_ptr<Node>& node) {
 
 }  // namespace
 
-void runAvlBalanceDemo() {
+void runTask5() {
     std::cout << "Введите последовательность целых чисел, завершая 0:\n";
     std::unique_ptr<Node> root;
     int value = 0;

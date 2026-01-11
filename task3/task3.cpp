@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-#include "tasks.hpp"
+#include "task3.hpp"
 
 namespace {
 
@@ -45,7 +45,7 @@ bool splitIntoEqualSums(const std::vector<int>& input, int target,
 
 }  // namespace
 
-void runPartitionDemo() {
+void runTask3() {
     std::cout << "Целевая сумма подмножества: ";
     int target = 0;
     if (!(std::cin >> target)) {

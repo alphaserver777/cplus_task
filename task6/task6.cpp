@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-#include "tasks.hpp"
+#include "task6.hpp"
 
 namespace {
 
@@ -125,7 +125,7 @@ std::vector<int> buildQueries(size_t m, size_t n) {
 
 }  // namespace
 
-void runHashTableDemo() {
+void runTask6() {
     size_t n = 0;
     size_t m = 0;
     std::cout << "Количество элементов для вставки: ";

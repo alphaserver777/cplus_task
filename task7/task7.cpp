@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "tasks.hpp"
+#include "task7.hpp"
 
 namespace {
 
@@ -29,7 +29,7 @@ int countDescendants(const std::string& name, const Graph& tree,
 
 }  // namespace
 
-void runGenealogyDemo() {
+void runTask7() {
     std::cout << "Количество элементов в генеалогическом древе: ";
     int n = 0;
     if (!(std::cin >> n) || n <= 0) {
