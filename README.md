@@ -25,6 +25,9 @@ g++ -std=c++17 main.cpp task*/task*.cpp -o student_tasks
 1. Собрать образ: `docker compose build`
 2. Запустить интерактивно: `docker compose run --rm student`
    - По умолчанию поднимется бинарник `student_tasks` с меню.
+3. Запуск конкретного задания по номеру:
+   - `docker compose run --rm student 4`
+   - Номер передается как аргумент программы.
 
 ## Как пользоваться
 1. Запустите бинарник и введите номер задания.
